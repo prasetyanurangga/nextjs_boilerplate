@@ -3,7 +3,7 @@ import Link from "next/link";
 // import Image from "next/image";
 import PropTypes from "prop-types";
 
-import MainLayout from "@/layout/MainLayout";
+import MainLayout from "@/layouts/MainLayout";
 import ItemArticle from "@/components/Custom/Article/ItemArticle";
 import RightBackgroundPattern from "@/components/BackgroundPattern/RightBackgroundPattern";
 import LeftBackgroundPattern from "@/components/BackgroundPattern/LeftBackgroundPattern";
