@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Home from "@/pages/Home";
 
 export default function Index() {
   return (
@@ -7,7 +8,7 @@ export default function Index() {
         <title>Khalisa Khalid</title>
         <link rel="icon" href="/img/home/khalisakhalid.jpeg" />
       </Head>
-      <Hero />
+      <Home />
     </div>
   );
 }
