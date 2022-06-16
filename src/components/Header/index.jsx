@@ -501,13 +501,13 @@ Header.defaultProps = {
     {
       name: "Artikel Serius",
       description: "Berisi artikel yg serius?",
-      to: "/listArticle/nonfiksi",
+      to: "/article/nonfiksi",
       icon: SupportIcon,
     },
     {
       name: "Artikel sastra",
       description: "Kumpulan karya sastra",
-      to: "/listArticle/fiksi",
+      to: "/article/fiksi",
       icon: BookmarkAltIcon,
     },
   ],

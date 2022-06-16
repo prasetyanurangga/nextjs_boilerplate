@@ -5,7 +5,7 @@ import ItemArticle from "@/components/Custom/Article/ItemArticle";
 export default function SubArticle(props) {
   const router = useRouter() 
   const { SubArticle } = router.query
-  const { listarticlefiction, listarticlenonfiction } = props
+  const { ListArticleFiction, ListArticleNonFiction } = props
   
   return (
     <div className="bg-white pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
@@ -45,7 +45,7 @@ export default function SubArticle(props) {
           </div>
         </div>
         {<div className="mt-6 pt-10 grid gap-16 lg:grid-cols-2 lg:gap-x-5 lg:gap-y-12">
-          {(SubArticle == 'fiksi' ? listarticlefiction : listarticlenonfiction).map((post) => (
+          {(SubArticle == 'fiksi' ? ListArticleFiction : ListArticleNonFiction).map((post) => (
             <ItemArticle post={post} key={post.title} />
           ))}
         </div>}
@@ -55,7 +55,7 @@ export default function SubArticle(props) {
 }
 
 SubArticle.defaultProps = {
-  listarticlefiction: [
+  ListArticleFiction: [
     {
       title: "Boost your conversion rate",
       href: "#",
@@ -115,7 +115,7 @@ SubArticle.defaultProps = {
   },
     },
   ],
-  listarticlenonfiction: [
+  ListArticleNonFiction: [
     {
       title: "Boost your conversion rate",
       href: "#",
