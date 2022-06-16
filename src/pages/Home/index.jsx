@@ -96,13 +96,6 @@ export default function Home(props) {
                           Watch our video to learn more
                         </span>
                         <img className="w-full" src="/img/home/9.jpeg" alt="" />
-                        {/* <Image
-                      priority
-                      src="/img/home/9.jpeg"
-                      className="rounded-lg shadow-lg object-cover object-center"
-                      alt={name}
-                      layout="fill"
-                    /> */}
                       </button>
                     </div>
                   </div>
@@ -116,9 +109,7 @@ export default function Home(props) {
             <RightBackgroundPattern />
             <div className="relative max-w-7xl mx-auto">
               <div className="text-center">
-                <h2 className="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">
-                  Artikel
-                </h2>
+                <HeadingTwo title="Artikel" />
                 <BodyOne
                   text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa
                 libero labore natus atque, ducimus sed."
@@ -144,7 +135,38 @@ export default function Home(props) {
                         libero labore natus atque, ducimus sed."
                   />
                 </div>
-                {/*<PictureHome />*/}
+                <div className="mt-6 max-w-2xl mx-auto sm:px-6 lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-3 lg:gap-x-8">
+                  <div className="hidden aspect-w-3 aspect-h-4 rounded-lg overflow-hidden lg:block">
+                    <img
+                      src={images[0].src}
+                      alt={images[0].alt}
+                      className="w-full h-full object-center object-cover"
+                    />
+                  </div>
+                  <div className="hidden lg:grid lg:grid-cols-1 lg:gap-y-8">
+                    <div className="aspect-w-3 aspect-h-2 rounded-lg overflow-hidden">
+                      <img
+                        src={images[1].src}
+                        alt={images[1].alt}
+                        className="w-full h-full object-center object-cover"
+                      />
+                    </div>
+                    <div className="aspect-w-3 aspect-h-2 rounded-lg overflow-hidden">
+                      <img
+                        src={images[2].src}
+                        alt={images[2].alt}
+                        className="w-full h-full object-center object-cover"
+                      />
+                    </div>
+                  </div>
+                  <div className="aspect-w-4 aspect-h-5 sm:rounded-lg sm:overflow-hidden lg:aspect-w-3 lg:aspect-h-4">
+                    <img
+                      src={images[3].src}
+                      alt={images[3].alt}
+                      className="w-full h-full object-center object-cover"
+                    />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -196,9 +218,7 @@ export default function Home(props) {
 
               <div className="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0">
                 <div className="pt-12 sm:pt-16 lg:pt-20">
-                  <h2 className="text-3xl text-gray-900 font-extrabold tracking-tight sm:text-4xl">
-                    Visi
-                  </h2>
+                  <HeadingTwo title="Visi" />
                   <div className="mt-6 text-gray-500 space-y-6">
                     <BodyTwo>
                       “Musim semi yang sunyi, burung-burung menghilang”. Sosok perempuan
@@ -291,8 +311,27 @@ Home.defaultProps = {
       },
     },
   ],
+  images :[
+    {
+      src: "/img/gallery/11.JPG",
+      alt: "Two each of gray, white, and black shirts laying flat.",
+    },
+    {
+      src: "/img/gallery/20.jpg",
+      alt: "Model wearing plain black basic tee.",
+    },
+    {
+      src: "/img/gallery/14.jpg",
+      alt: "Model wearing plain gray basic tee.",
+    },
+    {
+      src: "/img/gallery/21.JPG",
+      alt: "Model wearing plain white basic tee.",
+    },
+  ],
 };
 
 Home.propTypes = {
   posts: PropTypes.arrayOf(PropTypes.object),
+  images: PropTypes.arrayOf(PropTypes.object),
 };
