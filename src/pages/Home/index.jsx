@@ -119,7 +119,7 @@ export default function Home(props) {
                 <h2 className="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">
                   Artikel
                 </h2>
-                <ParagraphOne
+                <BodyOne
                   text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa
                 libero labore natus atque, ducimus sed."
                 />
