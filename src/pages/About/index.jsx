@@ -3,7 +3,7 @@ import Image from "next/image";
 import { CameraIcon } from "@heroicons/react/solid";
 import dynamic from 'next/dynamic';
 
-import MainLayout from "@/components/layouts/MainLayout";
+import MainLayout from "@/layouts/MainLayout";
 import BodyTwo from "@/components/Typograph/BodyTwo";
 
 

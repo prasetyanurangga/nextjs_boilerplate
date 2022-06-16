@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import MainLayout from "@/components/layouts/MainLayout";
+import MainLayout from "@/layouts/MainLayout";
 import ItemGallery from "@/components/Custom/Gallery/ItemGallery";
 import HeadingTwo from "@/components/Typograph/HeadingTwo";
 
