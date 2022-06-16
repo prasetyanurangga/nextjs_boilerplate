@@ -313,19 +313,19 @@ Home.defaultProps = {
   ],
   images :[
     {
-      src: "img/gallery/11.JPG",
+      src: "/img/gallery/11.JPG",
       alt: "Two each of gray, white, and black shirts laying flat.",
     },
     {
-      src: "img/gallery/20.jpg",
+      src: "/img/gallery/20.jpg",
       alt: "Model wearing plain black basic tee.",
     },
     {
-      src: "img/gallery/14.jpg",
+      src: "/img/gallery/14.jpg",
       alt: "Model wearing plain gray basic tee.",
     },
     {
-      src: "img/gallery/21.JPG",
+      src: "/img/gallery/21.JPG",
       alt: "Model wearing plain white basic tee.",
     },
   ],
