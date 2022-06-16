@@ -4,11 +4,11 @@ import Link from "next/link";
 import PropTypes from "prop-types";
 
 import MainLayout from "@/layout/MainLayout";
-import ItemArticle from "@/components/Custom/Article/itemArticle";
-import RightBackgroundPattern from "@/components/BackgoundPattern/RightBackgroundPattern";
-import LeftBackgroundPattern from "@/components/BackgoundPattern/LeftBackgroundPattern";
-import CenterBackgroundPattern from "@/components/BackgoundPattern/CenterBackgroundPattern";
-import FullBackgroundPattern from "@/components/BackgoundPattern/FullBackgroundPattern";
+import ItemArticle from "@/components/Custom/Article/ItemArticle";
+import RightBackgroundPattern from "@/components/BackgroundPattern/RightBackgroundPattern";
+import LeftBackgroundPattern from "@/components/BackgroundPattern/LeftBackgroundPattern";
+import CenterBackgroundPattern from "@/components/BackgroundPattern/CenterBackgroundPattern";
+import FullBackgroundPattern from "@/components/BackgroundPattern/FullBackgroundPattern";
 import BodyTwo from "@/components/Typograph/BodyTwo";
 import BodyOne from "@/components/Typograph/BodyOne";
 import HeadingTwo from "@/components/Typograph/HeadingTwo";
