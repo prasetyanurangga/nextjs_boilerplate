@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router'
 import PropTypes from "prop-types";
-import ItemArticle from "../../components/article/itemArticle";
+import ItemArticle from "@/components/Custom/Article/ItemArticle";
 
 export default function SubArticle(props) {
   const router = useRouter() 
