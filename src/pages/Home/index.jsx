@@ -14,7 +14,7 @@ import BodyOne from "@/components/Typograph/BodyOne";
 import HeadingTwo from "@/components/Typograph/HeadingTwo";
 
 export default function Home(props) {
-  const { posts } = props;
+  const { posts, images } = props;
   return (
     <div className="relative bg-white mt-2">
       <MainLayout>
